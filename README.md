@@ -1,4 +1,6 @@
-# 🇲🇦 Credit Card Default Risk Prediction — Moroccan Banking Portfolio
+
+Readme · MD
+# 🇲🇦 Credit Card Default Risk Prediction - Moroccan Banking Portfolio
  
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
@@ -21,7 +23,7 @@
 ## 📌 Business Problem
  
 Moroccan banks lose **hundreds of millions of MAD annually** to credit card defaults.  
-This project builds a machine learning system that predicts which customers will default **next month** — enabling risk teams to intervene early through:
+This project builds a machine learning system that predicts which customers will default **next month** - enabling risk teams to intervene early through:
  
 - 💳 Credit limit adjustments
 - 📋 Structured repayment plan offers
@@ -67,11 +69,11 @@ This project builds a machine learning system that predicts which customers will
  
 | Rank | Feature | Business Meaning |
 |---|---|---|
-| 1 | `payment_status_month_1` | Most recent payment delay — strongest single predictor |
-| 2 | `credit_utilization` | Avg balance / credit limit — customers > 80% are 2× more likely to default |
+| 1 | `payment_status_month_1` | Most recent payment delay - strongest single predictor |
+| 2 | `credit_utilization` | Avg balance / credit limit - customers > 80% are 2× more likely to default |
 | 3 | `max_payment_delay` | Worst-ever delinquency across 6 months |
-| 4 | `months_delayed` | How many months had any delay — breadth of risk |
-| 5 | `credit_limit_mad` | Inverse relationship — higher limits = lower risk (bank screening effect) |
+| 4 | `months_delayed` | How many months had any delay - breadth of risk |
+| 5 | `credit_limit_mad` | Inverse relationship - higher limits = lower risk (bank screening effect) |
  
 ---
  
@@ -93,7 +95,7 @@ Default Probability    Action
 credit-risk-morocco/
 │
 ├── 📓 notebooks/
-│   └── 01_credit_risk_analysis.ipynb    # Full pipeline — 50 cells, 12 steps
+│   └── 01_credit_risk_analysis.ipynb    # Full pipeline - 50 cells, 12 steps
 │
 ├── 🐍 src/
 │   ├── data_loader.py    # Load, rename columns, TWD → MAD conversion, clean
