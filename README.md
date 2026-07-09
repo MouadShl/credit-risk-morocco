@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-👉 **[Launch Dashboard](https://your-app-url.streamlit.app)** ← *(replace with your Streamlit URL)*  
+👉 **[Launch Dashboard](https://your-app-url.streamlit.app)**
 👉 **[View Notebook](notebooks/01_credit_risk_analysis.ipynb)**  
 👉 **[Executive Report](reports/final_report.md)**
 
