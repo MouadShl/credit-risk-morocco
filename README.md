@@ -175,7 +175,7 @@ cd notebooks
 jupyter notebook 01_credit_risk_analysis.ipynb
 ```
  
-Run all cells — takes ~5–8 minutes. Trains all 7 models and saves outputs.
+Run all cells - takes ~5–8 minutes. Trains all 7 models and saves outputs.
  
 ### 3. Launch the dashboard locally
  
@@ -220,11 +220,11 @@ Annual savings estimate      : ~299M MAD
  
 ## 📋 Regulatory Compliance
  
-- ✅ **SHAP explainability** — every prediction backed by feature-level explanations
-- ✅ **Fairness audit** — gender confirmed as < 2% SHAP contribution (not a primary driver)
-- ✅ **Reproducible pipeline** — version-controlled, fully documented
-- ✅ **SR 11-7 aligned** — model risk management documentation included
-- ✅ **Bank Al-Maghrib** — business narrative framed for BAM risk guidelines
+- ✅ **SHAP explainability** - every prediction backed by feature-level explanations
+- ✅ **Fairness audit** - gender confirmed as < 2% SHAP contribution (not a primary driver)
+- ✅ **Reproducible pipeline** - version-controlled, fully documented
+- ✅ **SR 11-7 aligned** - model risk management documentation included
+- ✅ **Bank Al-Maghrib** - business narrative framed for BAM risk guidelines
 ---
  
 ## 👤 Author
@@ -237,7 +237,7 @@ Annual savings estimate      : ~299M MAD
  
 ## 📄 License
  
-MIT License — free for personal and commercial use.
+MIT License - free for personal and commercial use.
  
 ---
  
